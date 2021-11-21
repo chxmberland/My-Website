@@ -220,7 +220,7 @@ html, body {
 }
 
  #coding-environment-text {
-    font-family: Consolas;
+    font-family: Consolas, monaco, monospace;
     color: rgb(129, 129, 129);
     font-size: 14px;
     margin-left: 20px;
@@ -232,22 +232,21 @@ html, body {
 
 .tag {
     color: #569CD6;
-    font-size: Consolas;
 }
 
 .prop-name {
     color: #9CDCFE;
-    font-family: Consolas;
+    font-family: Consolas, monaco, monospace;;
 }
 
 .prop {
     color: #CE9178;
-    font-family: Consolas;
+    font-family: Consolas, monaco, monospace;
 }
 
 .text {
     color: rgb(255, 255, 255);
-    font-family: Consolas;
+    font-family: Consolas, monaco, monospace;
 }
 
 .clickable-link {
@@ -268,7 +267,7 @@ html, body {
 #file-tabs {
     display: flex;
     color: white;
-    font-family: Consolas;
+    font-family: Consolas, monaco, monospace;
     font-size: 12px;
     background: #252526;
 }
